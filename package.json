@@ -1,0 +1,23 @@
+{
+  "name": "@apiweave/proto",
+  "version": "0.1.0",
+  "description": "Generated TypeScript + ConnectRPC contract for APIWeave Cloud",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kaysharp42/apiweave-proto.git"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "files": ["src"],
+  "exports": {
+    "./apiweave/v1/*": {
+      "types": "./src/apiweave/v1/*.ts",
+      "import": "./src/apiweave/v1/*.ts",
+      "default": "./src/apiweave/v1/*.ts"
+    }
+  },
+  "peerDependencies": {
+    "@bufbuild/protobuf": "^2.12.1"
+  }
+}
