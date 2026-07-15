@@ -10,7 +10,7 @@ desktop app and the private `apiweave-cloud` backend to consume from one place.
 // package.json — HTTPS tarball avoids git/SSH so CI and fresh clones install
 // without credentials (npm canonicalizes `github:` shorthand to git+ssh).
 "dependencies": {
-  "@apiweave/proto": "https://github.com/Kaysharp42/apiweave-proto/archive/refs/tags/v0.1.0.tar.gz",
+  "@apiweave/proto": "https://github.com/Kaysharp42/apiweave-proto/archive/refs/tags/v0.2.0.tar.gz",
   "@bufbuild/protobuf": "^2.12.1"   // peer dep
 }
 ```
