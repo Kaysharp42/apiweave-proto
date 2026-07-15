@@ -7,9 +7,10 @@ desktop app and the private `apiweave-cloud` backend to consume from one place.
 ## Install
 
 ```jsonc
-// package.json
+// package.json — HTTPS tarball avoids git/SSH so CI and fresh clones install
+// without credentials (npm canonicalizes `github:` shorthand to git+ssh).
 "dependencies": {
-  "@apiweave/proto": "github:Kaysharp42/apiweave-proto#v0.1.0",
+  "@apiweave/proto": "https://github.com/Kaysharp42/apiweave-proto/archive/refs/tags/v0.1.0.tar.gz",
   "@bufbuild/protobuf": "^2.12.1"   // peer dep
 }
 ```
@@ -42,4 +43,4 @@ npm version patch          # or minor/major
 git push --follow-tags
 ```
 
-Consumers bump the `#vX.Y.Z` ref in their `package.json` to pick it up.
+Consumers bump the `vX.Y.Z` in their tarball URL to pick it up.
