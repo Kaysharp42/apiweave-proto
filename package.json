@@ -1,6 +1,6 @@
 {
   "name": "@apiweave/proto",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Generated TypeScript + ConnectRPC contract for APIWeave Cloud",
   "license": "MIT",
   "repository": {
@@ -9,7 +9,9 @@
   },
   "type": "module",
   "sideEffects": false,
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "exports": {
     "./apiweave/v1/*": {
       "types": "./src/apiweave/v1/*.ts",
