@@ -14,7 +14,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file apiweave/v1/team.proto.
  */
 export const file_apiweave_v1_team: GenFile = /*@__PURE__*/
-  fileDesc("ChZhcGl3ZWF2ZS92MS90ZWFtLnByb3RvEgthcGl3ZWF2ZS52MSKyAQoEVGVhbRIKCgJpZBgBIAEoCRILCgNyZXYYAiABKAMSDAoEbmFtZRgDIAEoCRIVCg1vd25lcl91c2VyX2lkGAQgASgJEi4KCmNyZWF0ZWRfYXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCnVwZGF0ZWRfYXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBHNsdWcYByABKAkiQQoIVGVhbUxpc3QSIAoFdGVhbXMYASADKAsyES5hcGl3ZWF2ZS52MS5UZWFtEhMKC25leHRfY3Vyc29yGAIgASgJIl8KEUNyZWF0ZVRlYW1SZXF1ZXN0Ei4KDGF1dGhfY29udGV4dBgBIAEoCzIYLmFwaXdlYXZlLnYxLkF1dGhDb250ZXh0EgwKBG5hbWUYAiABKAkSDAoEc2x1ZxgDIAEoCSIhCg5HZXRUZWFtUmVxdWVzdBIPCgd0ZWFtX2lkGAEgASgJIqoBChhUcmFuc2Zlck93bmVyc2hpcFJlcXVlc3QSLgoMYXV0aF9jb250ZXh0GAEgASgLMhguYXBpd2VhdmUudjEuQXV0aENvbnRleHQSDwoHdGVhbV9pZBgCIAEoCRIZChFuZXdfb3duZXJfdXNlcl9pZBgDIAEoCRIcChBleHBlY3RlZF92ZXJzaW9uGAQgASgDQgIYARIUCgxleHBlY3RlZF9yZXYYBSABKAMymQIKC1RlYW1TZXJ2aWNlEj8KCkNyZWF0ZVRlYW0SHi5hcGl3ZWF2ZS52MS5DcmVhdGVUZWFtUmVxdWVzdBoRLmFwaXdlYXZlLnYxLlRlYW0SOQoHR2V0VGVhbRIbLmFwaXdlYXZlLnYxLkdldFRlYW1SZXF1ZXN0GhEuYXBpd2VhdmUudjEuVGVhbRI6CglMaXN0VGVhbXMSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaFS5hcGl3ZWF2ZS52MS5UZWFtTGlzdBJSChFUcmFuc2Zlck93bmVyc2hpcBIlLmFwaXdlYXZlLnYxLlRyYW5zZmVyT3duZXJzaGlwUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eUK8AQoPY29tLmFwaXdlYXZlLnYxQglUZWFtUHJvdG9QAVpRZ2l0aHViLmNvbS9rYXlzaGFycDQyL2FwaXdlYXZlLWNsb3VkL2FwcHMvYXBpL2dlbi9wcm90by9nby9hcGl3ZWF2ZS92MTthcGl3ZWF2ZXYxogIDQVhYqgILQXBpd2VhdmUuVjHKAgtBcGl3ZWF2ZVxWMeICF0FwaXdlYXZlXFYxXEdQQk1ldGFkYXRh6gIMQXBpd2VhdmU6OlYxYgZwcm90bzM", [file_apiweave_v1_auth, file_google_protobuf_empty, file_google_protobuf_timestamp]);
+  fileDesc("ChZhcGl3ZWF2ZS92MS90ZWFtLnByb3RvEgthcGl3ZWF2ZS52MSKyAQoEVGVhbRIKCgJpZBgBIAEoCRILCgNyZXYYAiABKAMSDAoEbmFtZRgDIAEoCRIVCg1vd25lcl91c2VyX2lkGAQgASgJEi4KCmNyZWF0ZWRfYXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEi4KCnVwZGF0ZWRfYXQYBiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wEgwKBHNsdWcYByABKAkiQQoIVGVhbUxpc3QSIAoFdGVhbXMYASADKAsyES5hcGl3ZWF2ZS52MS5UZWFtEhMKC25leHRfY3Vyc29yGAIgASgJIl8KEUNyZWF0ZVRlYW1SZXF1ZXN0Ei4KDGF1dGhfY29udGV4dBgBIAEoCzIYLmFwaXdlYXZlLnYxLkF1dGhDb250ZXh0EgwKBG5hbWUYAiABKAkSDAoEc2x1ZxgDIAEoCSIhCg5HZXRUZWFtUmVxdWVzdBIPCgd0ZWFtX2lkGAEgASgJIqoBChhUcmFuc2Zlck93bmVyc2hpcFJlcXVlc3QSLgoMYXV0aF9jb250ZXh0GAEgASgLMhguYXBpd2VhdmUudjEuQXV0aENvbnRleHQSDwoHdGVhbV9pZBgCIAEoCRIZChFuZXdfb3duZXJfdXNlcl9pZBgDIAEoCRIcChBleHBlY3RlZF92ZXJzaW9uGAQgASgDQgIYARIUCgxleHBlY3RlZF9yZXYYBSABKAMiigEKGlRlYW1Xb3Jrc3BhY2VDcmVhdGlvbkdyYW50Eg8KB3RlYW1faWQYASABKAkSDwoHdXNlcl9pZBgCIAEoCRIaChJncmFudGVkX2J5X3VzZXJfaWQYAyABKAkSLgoKY3JlYXRlZF9hdBgEIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiOQomTGlzdFRlYW1Xb3Jrc3BhY2VDcmVhdGlvbkdyYW50c1JlcXVlc3QSDwoHdGVhbV9pZBgBIAEoCSJZCh5UZWFtV29ya3NwYWNlQ3JlYXRpb25HcmFudExpc3QSNwoGZ3JhbnRzGAEgAygLMicuYXBpd2VhdmUudjEuVGVhbVdvcmtzcGFjZUNyZWF0aW9uR3JhbnQidQohR3JhbnRUZWFtV29ya3NwYWNlQ3JlYXRpb25SZXF1ZXN0Ei4KDGF1dGhfY29udGV4dBgBIAEoCzIYLmFwaXdlYXZlLnYxLkF1dGhDb250ZXh0Eg8KB3RlYW1faWQYAiABKAkSDwoHdXNlcl9pZBgDIAEoCSJ2CiJSZXZva2VUZWFtV29ya3NwYWNlQ3JlYXRpb25SZXF1ZXN0Ei4KDGF1dGhfY29udGV4dBgBIAEoCzIYLmFwaXdlYXZlLnYxLkF1dGhDb250ZXh0Eg8KB3RlYW1faWQYAiABKAkSDwoHdXNlcl9pZBgDIAEoCTLxBAoLVGVhbVNlcnZpY2USPwoKQ3JlYXRlVGVhbRIeLmFwaXdlYXZlLnYxLkNyZWF0ZVRlYW1SZXF1ZXN0GhEuYXBpd2VhdmUudjEuVGVhbRI5CgdHZXRUZWFtEhsuYXBpd2VhdmUudjEuR2V0VGVhbVJlcXVlc3QaES5hcGl3ZWF2ZS52MS5UZWFtEjoKCUxpc3RUZWFtcxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoVLmFwaXdlYXZlLnYxLlRlYW1MaXN0ElIKEVRyYW5zZmVyT3duZXJzaGlwEiUuYXBpd2VhdmUudjEuVHJhbnNmZXJPd25lcnNoaXBSZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5En8KG0xpc3RXb3Jrc3BhY2VDcmVhdGlvbkdyYW50cxIzLmFwaXdlYXZlLnYxLkxpc3RUZWFtV29ya3NwYWNlQ3JlYXRpb25HcmFudHNSZXF1ZXN0GisuYXBpd2VhdmUudjEuVGVhbVdvcmtzcGFjZUNyZWF0aW9uR3JhbnRMaXN0EnEKFkdyYW50V29ya3NwYWNlQ3JlYXRpb24SLi5hcGl3ZWF2ZS52MS5HcmFudFRlYW1Xb3Jrc3BhY2VDcmVhdGlvblJlcXVlc3QaJy5hcGl3ZWF2ZS52MS5UZWFtV29ya3NwYWNlQ3JlYXRpb25HcmFudBJiChdSZXZva2VXb3Jrc3BhY2VDcmVhdGlvbhIvLmFwaXdlYXZlLnYxLlJldm9rZVRlYW1Xb3Jrc3BhY2VDcmVhdGlvblJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHlCvAEKD2NvbS5hcGl3ZWF2ZS52MUIJVGVhbVByb3RvUAFaUWdpdGh1Yi5jb20va2F5c2hhcnA0Mi9hcGl3ZWF2ZS1jbG91ZC9hcHBzL2FwaS9nZW4vcHJvdG8vZ28vYXBpd2VhdmUvdjE7YXBpd2VhdmV2MaICA0FYWKoCC0FwaXdlYXZlLlYxygILQXBpd2VhdmVcVjHiAhdBcGl3ZWF2ZVxWMVxHUEJNZXRhZGF0YeoCDEFwaXdlYXZlOjpWMWIGcHJvdG8z", [file_apiweave_v1_auth, file_google_protobuf_empty, file_google_protobuf_timestamp]);
 
 /**
  * Team is a grouping of users that owns workspaces.
@@ -180,6 +180,135 @@ export const TransferOwnershipRequestSchema: GenMessage<TransferOwnershipRequest
   messageDesc(file_apiweave_v1_team, 4);
 
 /**
+ * TeamWorkspaceCreationGrant allows an existing Team workspace member to
+ * create new workspaces without granting broader Team administration.
+ *
+ * @generated from message apiweave.v1.TeamWorkspaceCreationGrant
+ */
+export type TeamWorkspaceCreationGrant = Message<"apiweave.v1.TeamWorkspaceCreationGrant"> & {
+  /**
+   * @generated from field: string team_id = 1;
+   */
+  teamId: string;
+
+  /**
+   * @generated from field: string user_id = 2;
+   */
+  userId: string;
+
+  /**
+   * @generated from field: string granted_by_user_id = 3;
+   */
+  grantedByUserId: string;
+
+  /**
+   * @generated from field: google.protobuf.Timestamp created_at = 4;
+   */
+  createdAt?: Timestamp | undefined;
+};
+
+/**
+ * Describes the message apiweave.v1.TeamWorkspaceCreationGrant.
+ * Use `create(TeamWorkspaceCreationGrantSchema)` to create a new message.
+ */
+export const TeamWorkspaceCreationGrantSchema: GenMessage<TeamWorkspaceCreationGrant> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_team, 5);
+
+/**
+ * ListTeamWorkspaceCreationGrantsRequest lists grants for an owner-managed Team.
+ *
+ * @generated from message apiweave.v1.ListTeamWorkspaceCreationGrantsRequest
+ */
+export type ListTeamWorkspaceCreationGrantsRequest = Message<"apiweave.v1.ListTeamWorkspaceCreationGrantsRequest"> & {
+  /**
+   * @generated from field: string team_id = 1;
+   */
+  teamId: string;
+};
+
+/**
+ * Describes the message apiweave.v1.ListTeamWorkspaceCreationGrantsRequest.
+ * Use `create(ListTeamWorkspaceCreationGrantsRequestSchema)` to create a new message.
+ */
+export const ListTeamWorkspaceCreationGrantsRequestSchema: GenMessage<ListTeamWorkspaceCreationGrantsRequest> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_team, 6);
+
+/**
+ * @generated from message apiweave.v1.TeamWorkspaceCreationGrantList
+ */
+export type TeamWorkspaceCreationGrantList = Message<"apiweave.v1.TeamWorkspaceCreationGrantList"> & {
+  /**
+   * @generated from field: repeated apiweave.v1.TeamWorkspaceCreationGrant grants = 1;
+   */
+  grants: TeamWorkspaceCreationGrant[];
+};
+
+/**
+ * Describes the message apiweave.v1.TeamWorkspaceCreationGrantList.
+ * Use `create(TeamWorkspaceCreationGrantListSchema)` to create a new message.
+ */
+export const TeamWorkspaceCreationGrantListSchema: GenMessage<TeamWorkspaceCreationGrantList> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_team, 7);
+
+/**
+ * GrantTeamWorkspaceCreationRequest grants the narrow workspaces:create ability.
+ *
+ * @generated from message apiweave.v1.GrantTeamWorkspaceCreationRequest
+ */
+export type GrantTeamWorkspaceCreationRequest = Message<"apiweave.v1.GrantTeamWorkspaceCreationRequest"> & {
+  /**
+   * @generated from field: apiweave.v1.AuthContext auth_context = 1;
+   */
+  authContext?: AuthContext | undefined;
+
+  /**
+   * @generated from field: string team_id = 2;
+   */
+  teamId: string;
+
+  /**
+   * @generated from field: string user_id = 3;
+   */
+  userId: string;
+};
+
+/**
+ * Describes the message apiweave.v1.GrantTeamWorkspaceCreationRequest.
+ * Use `create(GrantTeamWorkspaceCreationRequestSchema)` to create a new message.
+ */
+export const GrantTeamWorkspaceCreationRequestSchema: GenMessage<GrantTeamWorkspaceCreationRequest> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_team, 8);
+
+/**
+ * RevokeTeamWorkspaceCreationRequest removes the narrow workspaces:create ability.
+ *
+ * @generated from message apiweave.v1.RevokeTeamWorkspaceCreationRequest
+ */
+export type RevokeTeamWorkspaceCreationRequest = Message<"apiweave.v1.RevokeTeamWorkspaceCreationRequest"> & {
+  /**
+   * @generated from field: apiweave.v1.AuthContext auth_context = 1;
+   */
+  authContext?: AuthContext | undefined;
+
+  /**
+   * @generated from field: string team_id = 2;
+   */
+  teamId: string;
+
+  /**
+   * @generated from field: string user_id = 3;
+   */
+  userId: string;
+};
+
+/**
+ * Describes the message apiweave.v1.RevokeTeamWorkspaceCreationRequest.
+ * Use `create(RevokeTeamWorkspaceCreationRequestSchema)` to create a new message.
+ */
+export const RevokeTeamWorkspaceCreationRequestSchema: GenMessage<RevokeTeamWorkspaceCreationRequest> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_team, 9);
+
+/**
  * TeamService manages teams.
  *
  * @generated from service apiweave.v1.TeamService
@@ -215,6 +344,30 @@ export const TeamService: GenService<{
   transferOwnership: {
     methodKind: "unary";
     input: typeof TransferOwnershipRequestSchema;
+    output: typeof EmptySchema;
+  },
+  /**
+   * @generated from rpc apiweave.v1.TeamService.ListWorkspaceCreationGrants
+   */
+  listWorkspaceCreationGrants: {
+    methodKind: "unary";
+    input: typeof ListTeamWorkspaceCreationGrantsRequestSchema;
+    output: typeof TeamWorkspaceCreationGrantListSchema;
+  },
+  /**
+   * @generated from rpc apiweave.v1.TeamService.GrantWorkspaceCreation
+   */
+  grantWorkspaceCreation: {
+    methodKind: "unary";
+    input: typeof GrantTeamWorkspaceCreationRequestSchema;
+    output: typeof TeamWorkspaceCreationGrantSchema;
+  },
+  /**
+   * @generated from rpc apiweave.v1.TeamService.RevokeWorkspaceCreation
+   */
+  revokeWorkspaceCreation: {
+    methodKind: "unary";
+    input: typeof RevokeTeamWorkspaceCreationRequestSchema;
     output: typeof EmptySchema;
   },
 }> = /*@__PURE__*/

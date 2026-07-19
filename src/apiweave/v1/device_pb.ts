@@ -16,7 +16,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file apiweave/v1/device.proto.
  */
 export const file_apiweave_v1_device: GenFile = /*@__PURE__*/
-  fileDesc("ChhhcGl3ZWF2ZS92MS9kZXZpY2UucHJvdG8SC2FwaXdlYXZlLnYxIuwBCgZEZXZpY2USCgoCaWQYASABKAkSCwoDcmV2GAIgASgDEhIKCnB1YmxpY19rZXkYAyABKAwSDQoFbGFiZWwYBCABKAkSFgoOY2xpZW50X3ZlcnNpb24YBSABKAkSLgoKY3JlYXRlZF9hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKdXBkYXRlZF9hdBgHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKcmV2b2tlZF9hdBgIIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiRwoKRGV2aWNlTGlzdBIkCgdkZXZpY2VzGAEgAygLMhMuYXBpd2VhdmUudjEuRGV2aWNlEhMKC25leHRfY3Vyc29yGAIgASgJIoIBChVSZWdpc3RlckRldmljZVJlcXVlc3QSLgoMYXV0aF9jb250ZXh0GAEgASgLMhguYXBpd2VhdmUudjEuQXV0aENvbnRleHQSEgoKcHVibGljX2tleRgCIAEoDBINCgVsYWJlbBgDIAEoCRIWCg5jbGllbnRfdmVyc2lvbhgEIAEoCSJYChNSZXZva2VEZXZpY2VSZXF1ZXN0Ei4KDGF1dGhfY29udGV4dBgBIAEoCzIYLmFwaXdlYXZlLnYxLkF1dGhDb250ZXh0EhEKCWRldmljZV9pZBgCIAEoCSJeChlTeW5jV29ya3NwYWNlQ2FwYWJpbGl0aWVzEhAKCGNhbl9wdWxsGAEgASgIEhAKCGNhbl9wdXNoGAIgASgIEh0KFWNhbl9yZXNvbHZlX2NvbmZsaWN0cxgDIAEoCCKkAgoNU3luY1dvcmtzcGFjZRIUCgx3b3Jrc3BhY2VfaWQYASABKAkSFgoOd29ya3NwYWNlX25hbWUYAiABKAkSDwoHdGVhbV9pZBgDIAEoCRIRCgl0ZWFtX25hbWUYBCABKAkSEwoLaXNfcGVyc29uYWwYBSABKAgSOgoOZWZmZWN0aXZlX3JvbGUYBiABKA4yHi5hcGl3ZWF2ZS52MS5TeW5jV29ya3NwYWNlUm9sZUICGAESPAoMY2FwYWJpbGl0aWVzGAcgASgLMiYuYXBpd2VhdmUudjEuU3luY1dvcmtzcGFjZUNhcGFiaWxpdGllcxIyCg53b3Jrc3BhY2Vfcm9sZRgIIAEoDjIaLmFwaXdlYXZlLnYxLldvcmtzcGFjZVJvbGUiQwoRU3luY1dvcmtzcGFjZUxpc3QSLgoKd29ya3NwYWNlcxgBIAMoCzIaLmFwaXdlYXZlLnYxLlN5bmNXb3Jrc3BhY2UikwEKGkVuc3VyZVN5bmNXb3Jrc3BhY2VSZXF1ZXN0Ei4KDGF1dGhfY29udGV4dBgBIAEoCzIYLmFwaXdlYXZlLnYxLkF1dGhDb250ZXh0EhQKDHdvcmtzcGFjZV9pZBgCIAEoCRIMCgRuYW1lGAMgASgJEgwKBHNsdWcYBCABKAkSEwoLaXNfcGVyc29uYWwYBSABKAgq2gEKEVN5bmNXb3Jrc3BhY2VSb2xlEiMKH1NZTkNfV09SS1NQQUNFX1JPTEVfVU5TUEVDSUZJRUQQABIcChhTWU5DX1dPUktTUEFDRV9ST0xFX1JFQUQQARIeChpTWU5DX1dPUktTUEFDRV9ST0xFX1RSSUFHRRACEh0KGVNZTkNfV09SS1NQQUNFX1JPTEVfV1JJVEUQAxIgChxTWU5DX1dPUktTUEFDRV9ST0xFX01BSU5UQUlOEAQSHQoZU1lOQ19XT1JLU1BBQ0VfUk9MRV9BRE1JThAFGgIYATKOAwoNRGV2aWNlU2VydmljZRJJCg5SZWdpc3RlckRldmljZRIiLmFwaXdlYXZlLnYxLlJlZ2lzdGVyRGV2aWNlUmVxdWVzdBoTLmFwaXdlYXZlLnYxLkRldmljZRI+CgtMaXN0RGV2aWNlcxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoXLmFwaXdlYXZlLnYxLkRldmljZUxpc3QSSAoMUmV2b2tlRGV2aWNlEiAuYXBpd2VhdmUudjEuUmV2b2tlRGV2aWNlUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRJMChJMaXN0U3luY1dvcmtzcGFjZXMSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaHi5hcGl3ZWF2ZS52MS5TeW5jV29ya3NwYWNlTGlzdBJaChNFbnN1cmVTeW5jV29ya3NwYWNlEicuYXBpd2VhdmUudjEuRW5zdXJlU3luY1dvcmtzcGFjZVJlcXVlc3QaGi5hcGl3ZWF2ZS52MS5TeW5jV29ya3NwYWNlQr4BCg9jb20uYXBpd2VhdmUudjFCC0RldmljZVByb3RvUAFaUWdpdGh1Yi5jb20va2F5c2hhcnA0Mi9hcGl3ZWF2ZS1jbG91ZC9hcHBzL2FwaS9nZW4vcHJvdG8vZ28vYXBpd2VhdmUvdjE7YXBpd2VhdmV2MaICA0FYWKoCC0FwaXdlYXZlLlYxygILQXBpd2VhdmVcVjHiAhdBcGl3ZWF2ZVxWMVxHUEJNZXRhZGF0YeoCDEFwaXdlYXZlOjpWMWIGcHJvdG8z", [file_apiweave_v1_auth, file_apiweave_v1_common, file_google_protobuf_empty, file_google_protobuf_timestamp]);
+  fileDesc("ChhhcGl3ZWF2ZS92MS9kZXZpY2UucHJvdG8SC2FwaXdlYXZlLnYxIuwBCgZEZXZpY2USCgoCaWQYASABKAkSCwoDcmV2GAIgASgDEhIKCnB1YmxpY19rZXkYAyABKAwSDQoFbGFiZWwYBCABKAkSFgoOY2xpZW50X3ZlcnNpb24YBSABKAkSLgoKY3JlYXRlZF9hdBgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKdXBkYXRlZF9hdBgHIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXASLgoKcmV2b2tlZF9hdBgIIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiRwoKRGV2aWNlTGlzdBIkCgdkZXZpY2VzGAEgAygLMhMuYXBpd2VhdmUudjEuRGV2aWNlEhMKC25leHRfY3Vyc29yGAIgASgJIoIBChVSZWdpc3RlckRldmljZVJlcXVlc3QSLgoMYXV0aF9jb250ZXh0GAEgASgLMhguYXBpd2VhdmUudjEuQXV0aENvbnRleHQSEgoKcHVibGljX2tleRgCIAEoDBINCgVsYWJlbBgDIAEoCRIWCg5jbGllbnRfdmVyc2lvbhgEIAEoCSJYChNSZXZva2VEZXZpY2VSZXF1ZXN0Ei4KDGF1dGhfY29udGV4dBgBIAEoCzIYLmFwaXdlYXZlLnYxLkF1dGhDb250ZXh0EhEKCWRldmljZV9pZBgCIAEoCSJeChlTeW5jV29ya3NwYWNlQ2FwYWJpbGl0aWVzEhAKCGNhbl9wdWxsGAEgASgIEhAKCGNhbl9wdXNoGAIgASgIEh0KFWNhbl9yZXNvbHZlX2NvbmZsaWN0cxgDIAEoCCKkAgoNU3luY1dvcmtzcGFjZRIUCgx3b3Jrc3BhY2VfaWQYASABKAkSFgoOd29ya3NwYWNlX25hbWUYAiABKAkSDwoHdGVhbV9pZBgDIAEoCRIRCgl0ZWFtX25hbWUYBCABKAkSEwoLaXNfcGVyc29uYWwYBSABKAgSOgoOZWZmZWN0aXZlX3JvbGUYBiABKA4yHi5hcGl3ZWF2ZS52MS5TeW5jV29ya3NwYWNlUm9sZUICGAESPAoMY2FwYWJpbGl0aWVzGAcgASgLMiYuYXBpd2VhdmUudjEuU3luY1dvcmtzcGFjZUNhcGFiaWxpdGllcxIyCg53b3Jrc3BhY2Vfcm9sZRgIIAEoDjIaLmFwaXdlYXZlLnYxLldvcmtzcGFjZVJvbGUiQwoRU3luY1dvcmtzcGFjZUxpc3QSLgoKd29ya3NwYWNlcxgBIAMoCzIaLmFwaXdlYXZlLnYxLlN5bmNXb3Jrc3BhY2UiNQoUU3luY1RlYW1DYXBhYmlsaXRpZXMSHQoVY2FuX2NyZWF0ZV93b3Jrc3BhY2VzGAEgASgIInwKCFN5bmNUZWFtEg8KB3RlYW1faWQYASABKAkSEQoJdGVhbV9uYW1lGAIgASgJEhMKC2lzX3BlcnNvbmFsGAMgASgIEjcKDGNhcGFiaWxpdGllcxgEIAEoCzIhLmFwaXdlYXZlLnYxLlN5bmNUZWFtQ2FwYWJpbGl0aWVzIjQKDFN5bmNUZWFtTGlzdBIkCgV0ZWFtcxgBIAMoCzIVLmFwaXdlYXZlLnYxLlN5bmNUZWFtIpMBChpFbnN1cmVTeW5jV29ya3NwYWNlUmVxdWVzdBIuCgxhdXRoX2NvbnRleHQYASABKAsyGC5hcGl3ZWF2ZS52MS5BdXRoQ29udGV4dBIUCgx3b3Jrc3BhY2VfaWQYAiABKAkSDAoEbmFtZRgDIAEoCRIMCgRzbHVnGAQgASgJEhMKC2lzX3BlcnNvbmFsGAUgASgIIo0BChpDcmVhdGVTeW5jV29ya3NwYWNlUmVxdWVzdBIuCgxhdXRoX2NvbnRleHQYASABKAsyGC5hcGl3ZWF2ZS52MS5BdXRoQ29udGV4dBISCgpyZXF1ZXN0X2lkGAIgASgJEg8KB3RlYW1faWQYAyABKAkSDAoEbmFtZRgEIAEoCRIMCgRzbHVnGAUgASgJKtoBChFTeW5jV29ya3NwYWNlUm9sZRIjCh9TWU5DX1dPUktTUEFDRV9ST0xFX1VOU1BFQ0lGSUVEEAASHAoYU1lOQ19XT1JLU1BBQ0VfUk9MRV9SRUFEEAESHgoaU1lOQ19XT1JLU1BBQ0VfUk9MRV9UUklBR0UQAhIdChlTWU5DX1dPUktTUEFDRV9ST0xFX1dSSVRFEAMSIAocU1lOQ19XT1JLU1BBQ0VfUk9MRV9NQUlOVEFJThAEEh0KGVNZTkNfV09SS1NQQUNFX1JPTEVfQURNSU4QBRoCGAEyrgQKDURldmljZVNlcnZpY2USSQoOUmVnaXN0ZXJEZXZpY2USIi5hcGl3ZWF2ZS52MS5SZWdpc3RlckRldmljZVJlcXVlc3QaEy5hcGl3ZWF2ZS52MS5EZXZpY2USPgoLTGlzdERldmljZXMSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaFy5hcGl3ZWF2ZS52MS5EZXZpY2VMaXN0EkgKDFJldm9rZURldmljZRIgLmFwaXdlYXZlLnYxLlJldm9rZURldmljZVJlcXVlc3QaFi5nb29nbGUucHJvdG9idWYuRW1wdHkSTAoSTGlzdFN5bmNXb3Jrc3BhY2VzEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5Gh4uYXBpd2VhdmUudjEuU3luY1dvcmtzcGFjZUxpc3QSQgoNTGlzdFN5bmNUZWFtcxIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRoZLmFwaXdlYXZlLnYxLlN5bmNUZWFtTGlzdBJaChNFbnN1cmVTeW5jV29ya3NwYWNlEicuYXBpd2VhdmUudjEuRW5zdXJlU3luY1dvcmtzcGFjZVJlcXVlc3QaGi5hcGl3ZWF2ZS52MS5TeW5jV29ya3NwYWNlEloKE0NyZWF0ZVN5bmNXb3Jrc3BhY2USJy5hcGl3ZWF2ZS52MS5DcmVhdGVTeW5jV29ya3NwYWNlUmVxdWVzdBoaLmFwaXdlYXZlLnYxLlN5bmNXb3Jrc3BhY2VCvgEKD2NvbS5hcGl3ZWF2ZS52MUILRGV2aWNlUHJvdG9QAVpRZ2l0aHViLmNvbS9rYXlzaGFycDQyL2FwaXdlYXZlLWNsb3VkL2FwcHMvYXBpL2dlbi9wcm90by9nby9hcGl3ZWF2ZS92MTthcGl3ZWF2ZXYxogIDQVhYqgILQXBpd2VhdmUuVjHKAgtBcGl3ZWF2ZVxWMeICF0FwaXdlYXZlXFYxXEdQQk1ldGFkYXRh6gIMQXBpd2VhdmU6OlYxYgZwcm90bzM", [file_apiweave_v1_auth, file_apiweave_v1_common, file_google_protobuf_empty, file_google_protobuf_timestamp]);
 
 /**
  * Device represents a registered client device.
@@ -262,6 +262,77 @@ export const SyncWorkspaceListSchema: GenMessage<SyncWorkspaceList> = /*@__PURE_
   messageDesc(file_apiweave_v1_device, 6);
 
 /**
+ * SyncTeamCapabilities contains Team-level operations available to Desktop.
+ *
+ * @generated from message apiweave.v1.SyncTeamCapabilities
+ */
+export type SyncTeamCapabilities = Message<"apiweave.v1.SyncTeamCapabilities"> & {
+  /**
+   * @generated from field: bool can_create_workspaces = 1;
+   */
+  canCreateWorkspaces: boolean;
+};
+
+/**
+ * Describes the message apiweave.v1.SyncTeamCapabilities.
+ * Use `create(SyncTeamCapabilitiesSchema)` to create a new message.
+ */
+export const SyncTeamCapabilitiesSchema: GenMessage<SyncTeamCapabilities> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_device, 7);
+
+/**
+ * SyncTeam is an active Team visible to the current user. Team authority is
+ * deliberately separate from WorkspaceRole.
+ *
+ * @generated from message apiweave.v1.SyncTeam
+ */
+export type SyncTeam = Message<"apiweave.v1.SyncTeam"> & {
+  /**
+   * @generated from field: string team_id = 1;
+   */
+  teamId: string;
+
+  /**
+   * @generated from field: string team_name = 2;
+   */
+  teamName: string;
+
+  /**
+   * @generated from field: bool is_personal = 3;
+   */
+  isPersonal: boolean;
+
+  /**
+   * @generated from field: apiweave.v1.SyncTeamCapabilities capabilities = 4;
+   */
+  capabilities?: SyncTeamCapabilities | undefined;
+};
+
+/**
+ * Describes the message apiweave.v1.SyncTeam.
+ * Use `create(SyncTeamSchema)` to create a new message.
+ */
+export const SyncTeamSchema: GenMessage<SyncTeam> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_device, 8);
+
+/**
+ * @generated from message apiweave.v1.SyncTeamList
+ */
+export type SyncTeamList = Message<"apiweave.v1.SyncTeamList"> & {
+  /**
+   * @generated from field: repeated apiweave.v1.SyncTeam teams = 1;
+   */
+  teams: SyncTeam[];
+};
+
+/**
+ * Describes the message apiweave.v1.SyncTeamList.
+ * Use `create(SyncTeamListSchema)` to create a new message.
+ */
+export const SyncTeamListSchema: GenMessage<SyncTeamList> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_device, 9);
+
+/**
  * EnsureSyncWorkspaceRequest provisions a cloud workspace for the caller's
  * personal team so a linked desktop can sync a local-only workspace. It is
  * idempotent on workspace_id (the desktop-local ULID).
@@ -302,7 +373,48 @@ export type EnsureSyncWorkspaceRequest = Message<"apiweave.v1.EnsureSyncWorkspac
  * Use `create(EnsureSyncWorkspaceRequestSchema)` to create a new message.
  */
 export const EnsureSyncWorkspaceRequestSchema: GenMessage<EnsureSyncWorkspaceRequest> = /*@__PURE__*/
-  messageDesc(file_apiweave_v1_device, 7);
+  messageDesc(file_apiweave_v1_device, 10);
+
+/**
+ * CreateSyncWorkspaceRequest idempotently creates a non-personal workspace in
+ * an authorized Team. request_id is generated once by Desktop and reused on
+ * retries; the Cloud workspace ID is always server-generated.
+ *
+ * @generated from message apiweave.v1.CreateSyncWorkspaceRequest
+ */
+export type CreateSyncWorkspaceRequest = Message<"apiweave.v1.CreateSyncWorkspaceRequest"> & {
+  /**
+   * @generated from field: apiweave.v1.AuthContext auth_context = 1;
+   */
+  authContext?: AuthContext | undefined;
+
+  /**
+   * @generated from field: string request_id = 2;
+   */
+  requestId: string;
+
+  /**
+   * @generated from field: string team_id = 3;
+   */
+  teamId: string;
+
+  /**
+   * @generated from field: string name = 4;
+   */
+  name: string;
+
+  /**
+   * @generated from field: string slug = 5;
+   */
+  slug: string;
+};
+
+/**
+ * Describes the message apiweave.v1.CreateSyncWorkspaceRequest.
+ * Use `create(CreateSyncWorkspaceRequestSchema)` to create a new message.
+ */
+export const CreateSyncWorkspaceRequestSchema: GenMessage<CreateSyncWorkspaceRequest> = /*@__PURE__*/
+  messageDesc(file_apiweave_v1_device, 11);
 
 /**
  * SyncWorkspaceRole is the legacy sync-only role. New clients must use the
@@ -389,6 +501,14 @@ export const DeviceService: GenService<{
     output: typeof SyncWorkspaceListSchema;
   },
   /**
+   * @generated from rpc apiweave.v1.DeviceService.ListSyncTeams
+   */
+  listSyncTeams: {
+    methodKind: "unary";
+    input: typeof EmptySchema;
+    output: typeof SyncTeamListSchema;
+  },
+  /**
    * EnsureSyncWorkspace idempotently provisions a workspace in the caller's
    * personal team and returns it, so a linked desktop can sync local-only
    * workspaces without the web workspace-creation flow.
@@ -398,6 +518,14 @@ export const DeviceService: GenService<{
   ensureSyncWorkspace: {
     methodKind: "unary";
     input: typeof EnsureSyncWorkspaceRequestSchema;
+    output: typeof SyncWorkspaceSchema;
+  },
+  /**
+   * @generated from rpc apiweave.v1.DeviceService.CreateSyncWorkspace
+   */
+  createSyncWorkspace: {
+    methodKind: "unary";
+    input: typeof CreateSyncWorkspaceRequestSchema;
     output: typeof SyncWorkspaceSchema;
   },
 }> = /*@__PURE__*/
